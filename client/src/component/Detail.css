@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bitbit";
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff"),
+    url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2");
+}
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.detail-box {
+  display: flex;
+  margin: 0 auto;
+  margin-left: 13%;
+}
+.detail-img-box {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 20px 20px 20px;
+  margin: 5%;
+}
+.detail-text-box {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "TheJamsil5Bold";
+}
+.detail-title {
+  font-size: 40px;
+  width: 500px;
+  margin: 2%;
+}
+.detail-content {
+  font-size: 20px;
+  margin: 2%;
+}
+.detail-price {
+  font-size: 18px;
+  margin: 2%;
+}
+.tab-box {
+  font-family: "bitbit";
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.tab-box-inner {
+  font-size: 28px;
+  margin: 3%;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "LINESeedKR-Bd";
+}
+.tab-text {
+  font-family: "LINESeedKR-Bd";
+  justify-content: center;
+  flex-direction: row;
+  text-align: start;
+  font-size: 16px;
+  width: 1100px;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  padding: 3%;
+}
+.start {
+  opacity: 0;
+}
+.end {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #61DAFB;
+  text-align: left;
+  width: 1000px;
+  height: 1000px;
+  background-color: aquamarine;
+  z-index: 2;
+  position: relative;
+}
+#modal.modal-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+#modal .modal-window {
+  background: rgba(67, 82, 167, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: -80px;
+  padding: 10px;
+}
+#modal .title {
+  padding-left: 10px;
+  display: inline;
+  text-shadow: 1px 1px 2px gray;
+  color: white;
+}
+#modal .title h2 {
+  display: inline;
+}
+#modal .close-area {
+  display: inline;
+  float: right;
+  padding-right: 10px;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px gray;
+  color: white;
+}
+#modal .content {
+  margin-top: 20px;
+  padding: 0px 10px;
+  text-shadow: 1px 1px 2px gray;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.btn-box {
+  width: 300px;
+  background-color: rgb(188, 185, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 6%;
+  border-radius: 10px 10px 10px 10px;
+}
+.yes-btn {
+  font-size: 20px;
+  display: flex;
+  position: relative;
+  padding: 4%;
+  cursor: pointer;
+}
+.no-btn {
+  font-size: 20px;
+  display: flex;
+  position: relative;
+  padding: 4%;
+  cursor: pointer;
+}
+.in-cart-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.in-cart-img {
+  margin: 3%;
+  width: 18%;
+}

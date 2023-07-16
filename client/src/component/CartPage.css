@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "MICEGothic Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MBC1961GulimM";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.order-box-main {
+  width: 1200px;
+  height: 250px;
+  /* background-color: rgb(215, 224, 235); */
+  /* border-radius: 8px 8px 8px 8px; */
+  /* padding: 1%; */
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+  justify-content: center;
+}
+.cart-box-main {
+  width: 1200px;
+  height: 250px;
+  /* background-color: rgb(215, 224, 235); */
+  /* border-radius: 8px 8px 8px 8px; */
+  /* padding: 1%; */
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+  justify-content: center;
+}
+.table-box-main {
+  width: 1200px;
+  height: auto;
+  /* background-color: rgb(215, 224, 235); */
+  /* border-radius: 8px 8px 8px 8px; */
+  /* padding: 1%; */
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: center;
+}
+.table-box1,
+.table-box2 {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  border-top: 1px solid black;
+}
+.table-box1 div,
+.table-box2 div {
+  /* Adjust the styling as needed */
+  padding: 26px;
+  width: 190px;
+  /* border: 1px solid black; */
+  font-size: 15px;
+  font-family: "MICEGothic Bold";
+  text-align: center;
+}
+.cart-back {
+  display: flex;
+  margin: 0 auto;
+}
+.cart-logo {
+  font-family: "MBC1961GulimM";
+  font-size: 40px;
+  width: 100%;
+  height: 210px;
+  /* background-color: rgb(208, 208, 208); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  color: blue;
+}
+.decrease-btn {
+  width: 40px;
+  padding: 4px;
+}
+.increase-btn {
+  width: 40px;
+  padding: 4px;
+}
+.delete-btn {
+  width: 40px;
+  padding: 4px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.empty-cart {
+  font-size: 30px;
+  font-family: "MICEGothic Bold";
+  margin: 10%;
+}
+.cart-img-box {
+  border-radius: 20px;
+  margin: 2%;
+}
+.card-img {
+  margin-left: 5%;
+}
+.empty-text {
+  font-family: "MICEGothic Bold";
+  font-size: 20px;
+  height: 200px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+.price-total {
+  font-family: "MICEGothic Bold";
+  font-size: 25px;
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 650px;
+}
+.order-btn {
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+  font-family: "MICEGothic Bold";
+  background-color: rgb(187, 145, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 5%;
+  cursor: pointer;
+}
+.order-btn-box {
+  display: flex;
+  font-family: "MICEGothic Bold";
+}
+.yes-btn {
+  font-size: 16px;
+  display: flex;
+  position: relative;
+  padding: 4%;
+  cursor: pointer;
+  font-family: "MICEGothic Bold";
+}
+.no-btn {
+  font-size: 16px;
+  display: flex;
+  position: relative;
+  padding: 4%;
+  cursor: pointer;
+  font-family: "MICEGothic Bold";
+}

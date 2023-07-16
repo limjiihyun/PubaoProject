@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "KBO-Dia-Gothic_bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dovemayo_gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+.main-box {
+  display: flex;
+  justify-content: center;
+}
+.main-bg {
+  width: 100%;
+  /* height: 800px; */
+  background-size: cover;
+  background-position: center;
+  left: 10;
+}
+.next-btn {
+  z-index: 1;
+  display: flex;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  margin-top: -33%;
+}
+.next-btn2 {
+  z-index: 1;
+  display: flex;
+  width: 50px;
+  position: absolute;
+  margin-top: 25%;
+}
+.puobaotext {
+  margin: 0;
+  font-size: 80px;
+  left: -50px;
+  top: 120px;
+  position: relative;
+}
+.puobaotext2 {
+  font-size: 20px;
+  position: relative;
+  left: -100px;
+  top: 120px;
+}
+.main-box2 {
+  display: flex;
+  justify-content: center;
+}
+.puobaotext3 {
+  font-size: 30px;
+  position: relative;
+  top: 120px;
+  left: 40px;
+}
+.puobaotext4 {
+  font-size: 15px;
+  position: relative;
+  top: 120px;
+  left: 60px;
+}
+.greenbox {
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  top: 50px;
+  background-color: rgb(79, 184, 149);
+  position: relative;
+  color: aliceblue;
+  font-style: normal;
+  text-align: start;
+  font-size: 10px;
+}
+.container {
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  display: inline-flex;
+}
+.line {
+  border: 2px solid rgb(247, 239, 239);
+  width: 350px;
+  position: relative;
+  font-family: "SUITE-Regular";
+  font-size: 30px;
+}
+.goods-box {
+  display: flex;
+  justify-content: center;
+}
+.goods-line {
+  font-family: "KBO-Dia-Gothic_bold";
+  margin: 7%;
+  text-align: center;
+  font-size: 38px;
+}
+.goods-box-img {
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.more-btn {
+  font-size: 30px;
+  font-family: "Dovemayo_gothic";
+  border: 2px solid rgb(51, 85, 128);
+  width: 250px;
+  text-align: center;
+  border-radius: 20px;
+  /* background-color: rgb(51, 85, 128); */
+  color: rgb(51, 85, 128);
+  cursor: pointer;
+  margin: 4%;
+}

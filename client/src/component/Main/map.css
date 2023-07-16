@@ -1,0 +1,42 @@
+.descriptionDiv {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 50%;
+  }
+  .description {
+    width: calc(100% / 3);
+  }
+  .icons {
+    color: rgb(21, 113, 226);
+    width: 80px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  .mainLine {
+    border-left: 1px solid rgba(88, 86, 88, 0.088);
+    border-right: 1px solid rgba(88, 86, 88, 0.088);
+    /* color: red; */
+  }
+  .mainTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+  }
+  .mainContent {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    background-image: url("//only-fubao-main/");
+  }
+  

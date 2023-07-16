@@ -1,0 +1,87 @@
+body {
+  background: white !important;
+}
+.img {
+  margin-left: 35%;
+  display: block;
+}
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  padding-top: 80px;
+  background-color: #F2F5F2;
+  margin: 0 auto;
+}
+.form-signin {
+  max-width: 350px;
+  padding: 10px 30px 800px;
+  margin-left: 34%;
+  background-color: #F2F5F2;
+  border: 1px rgba(0, 0, 0, 0.1);
+}
+.form-signin-heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-left: 130px;
+}
+.checkbox {
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+.checkbox {
+  font-weight: normal;
+}
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  border: 0px;
+  background-color: rgb(234, 231, 231);
+  border-radius: 5px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.inputs {
+  width: 160%;
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+}
+.input {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.text {
+  margin-bottom: -1px;
+  height: 50px;
+  width: 500px;
+}
+input[type="password"] {
+  height: 50px;
+  width: 373px;
+}
+.info {
+  margin-right: 7px;
+}
+.btn {
+  width: 130%;
+  height: 45px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(48, 138, 78);
+  color: white;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
